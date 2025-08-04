@@ -26,5 +26,5 @@ Simple-Digital-Clock/
 
 - JavaScript `Date` object usage
 - DOM manipulation using `getElementById()`
-- Styling basics with Flexbox
+- Styling basics with Flexbox.
 
