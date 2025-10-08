@@ -2,7 +2,7 @@
 
 A clean and simple digital clock made using **HTML**, **CSS**, and **JavaScript**. It displays the current time in real-time and updates every second. Ideal for beginners looking to understand basic DOM manipulation and styling.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML** – For structure  
 - **CSS** – For styling the clock display  
