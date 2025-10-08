@@ -8,7 +8,7 @@ A clean and simple digital clock made using **HTML**, **CSS**, and **JavaScript*
 - **CSS** – For styling the clock display  
 - **JavaScript** – For updating the time dynamically  
 
-## 📂 Project Structure
+## Project Structure
 ```
 Simple-Digital-Clock/
 ├── index.html
