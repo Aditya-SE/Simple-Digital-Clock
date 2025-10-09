@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>clock</title>
-    <link rel="stylesheet" href="./clock.css" />
-  </head>
-  <body>
-    <div id="heading">
-      <h1>Digital Clock</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+</head>
+<body>
+  <h2>Digtal Clock</h2>
+  <div class="clock">
+    <div>
+      <span id="hour">00</span>
+      <span class="text">Hours</span>
     </div>
-    <div class="container">
-      <!-- first row -->
-      <div class="first-row">
-        <div class="day"></div>
-        <div class="date"></div>
-        <div class="month"></div>
-        <div class="year"></div>
-      </div>
-
-      <!-- second row -->
-      <div class="second-row">
-        <div id="clock"></div>
-        <div id="amOrpm"></div>
-      </div>
+    <div>
+      <span id="minutes">00</span>
+      <span class="text">Minutes</span>
     </div>
-  </body>
-  <script src="clock.js"></script>
+    <div>
+      <span id="seconds">00</span>
+      <span class="text">seconds</span>
+    </div>
+    <div>
+      <span id="ampm">AM</span>
+    </div>
+  </div>
+</body>
 </html>
