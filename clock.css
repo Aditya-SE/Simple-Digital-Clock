@@ -1,11 +1,12 @@
 body {
   margin: 0;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background: url("https://images.unsplash.com/photo-1563244673-bee4f49ba850?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background: url("./backgorundImg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -15,6 +16,7 @@ h2{
   letter-spacing: 4px;
   font-size: 14px;
   text-align: center;
+  font-weight: 600;
 }
 
 .clock{
@@ -23,6 +25,46 @@ h2{
 
 .clock div{
   margin: 5px;
+  position: relative;
+}
+.clock span{
+  width: 100px;
+  height: 80px;
+  color: white;
+  background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,128,255,0.5));
+
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgb(0,0,0);
+}
+
+.clock .text{
+  height: 30px;
+  font-size: 10px;
+  background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.415));
+
+  opacity: 0.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.clock #ampm{
+  position: absolute;
+  bottom: 40px;
+  height: 30px;
+  width: 40px;
+  font-size: 20px;
+}
+
+h5{
+  text-transform: uppercase;
+  font-family:'Times New Roman', Times, serif;
+  color:rgba(0, 0, 0, 0.386);
+  position: absolute;
+  top: 0;
 }
 
 
