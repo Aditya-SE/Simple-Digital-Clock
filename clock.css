@@ -17,4 +17,13 @@ h2{
   text-align: center;
 }
 
+.clock{
+  display: flex;
+}
+
+.clock div{
+  margin: 5px;
+}
+
+
 
