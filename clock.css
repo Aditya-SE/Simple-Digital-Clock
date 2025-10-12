@@ -9,9 +9,10 @@ body {
   background: url("./backgorundImg.jpg");
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
-h2{
+h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 14px;
@@ -19,39 +20,43 @@ h2{
   font-weight: 600;
 }
 
-.clock{
+.clock {
   display: flex;
 }
 
-.clock div{
+.clock div {
   margin: 5px;
   position: relative;
 }
-.clock span{
+.clock span {
   width: 100px;
   height: 80px;
   color: white;
-  background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,128,255,0.5));
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 128, 255, 0.5)
+  );
 
   opacity: 0.8;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  text-shadow: 2px 2px 4px rgb(0,0,0);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.clock .text{
+.clock .text {
   height: 30px;
   font-size: 10px;
-  background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.415));
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.415));
 
   opacity: 0.8;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.clock #ampm{
+.clock #ampm {
   position: absolute;
   bottom: 40px;
   height: 30px;
@@ -59,13 +64,10 @@ h2{
   font-size: 20px;
 }
 
-h5{
+h5 {
   text-transform: uppercase;
-  font-family:'Times New Roman', Times, serif;
-  color:rgba(0, 0, 0, 0.386);
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.386);
   position: absolute;
   top: 0;
 }
-
-
-
