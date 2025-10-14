@@ -7,10 +7,10 @@ It dynamically displays the current time with hour, minute, second, and AM/PM in
 ```
 Digital-Clock/
 │
-├── index.html       # Main HTML file  
-├── clock.css        # Styling file  
-├── clock.js         # JavaScript logic  
-└── backgroundImg.jpg  # Optional background image  
+├── index.html      
+├── clock.css        
+├── clock.js         
+└── backgroundImg.jpg  
 ```
 ## Features
 
