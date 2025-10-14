@@ -37,7 +37,7 @@ git clone https://github.com/yourusername/digital-clock.git
 
 ## Technologies Used
 
-HTML5 
-CSS3 
-JavaScript (ES6)
+* HTML5 
+* CSS3 
+* JavaScript (ES6)
 
