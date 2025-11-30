@@ -40,4 +40,3 @@ git clone https://github.com/yourusername/digital-clock.git
 * HTML5 
 * CSS3 
 * JavaScript (ES6)
-
